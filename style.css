@@ -1,0 +1,81 @@
+html {
+    background: pink;
+}
+h1 {
+    text-align: center;
+}
+#idCard{
+    background:#8B0000;
+    border:4px solid black;
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    text-align: left;
+}
+/* Data Entry */
+#input {
+    text-align: center;
+}
+#firstName {
+    margin: 5px;
+}
+#lastName {
+    margin: 5px;
+}
+#userAddress {
+    margin: 5px;
+}
+#phoneNumber {
+    margin: 5px;
+}
+#userAge {
+    margin: 5px;
+}
+/* ID Card */
+img {
+float: left;
+}
+.imgA1 {
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+.imgB1 {
+    position: relative;
+    top: 160px;
+    right: 150px;
+}
+#cardName {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 10px;
+    color: white;
+}
+#cardLastName{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+#cardAge {
+    font-family: 'Poiret One', cursive;
+    margin: 5px;
+}
+#cardNumber {
+    font-family: 'Poiret One', cursive;
+    margin: 5px;
+}
+#cardAddress{
+    font-family: 'Poiret One', cursive;
+    margin: 5px;
+}
+.output {
+    margin: auto;
+    width: 60%;
+    float: right;
+
+}

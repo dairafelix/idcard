@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One" rel="stylesheet">
+    </head>
+<body>
+
+    <h1> Let's Create an ID Card</h1>
+
+    <div id="input">
+<!-- First Name -->
+        First Name:<br>
+        <input type="text" id="firstName"
+        placeholder="First Name"><br>
+<!-- Last Name -->
+        Last Name:<br>
+        <input type="text" id="lastName"
+        placeholder="Last Name"><br>
+<!-- Address -->
+        Street Address:<br>
+        <input type="Address" id="userAddress"
+        placeholder="Address"><br>
+<!-- Phone Number-->
+        Phone Number:<br>
+        <input type="tel" id="phoneNumber"
+        placeholder="Phone Number"><br>
+<!-- Age -->
+        Age:<br>
+        <input type="number" id="userAge"
+        placeholder="Age"><br>
+
+        <button onclick="idCard()">Click me!</button><br><br>
+
+    </div>
+    <div id="idCard">
+        <img class="imgA1"  src="https://cdn1.iconfinder.com/data/icons/ios-edge-line-12/25/User-Square-512.png" alt="Avatar" style="width:40%"><br>
+        <img class="imgB1" src="http://www.valleytechnicalacademy.com/wp-content/uploads/2017/10/VTA-logo-w-300.png" alt="Avatar" style="width:40%"><br>
+    <!--Id card Output  -->
+    <div class="output">
+        <div><span id="cardName"></span><span id="cardLastName"></span></div>
+        <!-- <div><span id="cardLastName"></span></div><br> -->
+        <div> Age: <span id="cardAge"> </span> </div>
+        <div>Phone Number:<span id="cardNumber"></span></div>
+        <div>Address:<span id="cardAddress"></span></div>
+    </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
